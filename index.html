@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sam's Chaos Game</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js"></script>
+</head>
+<body>
+  <canvas></canvas>
+  <div id="overlay">
+    <div id="top-left">
+      <div class="button" id="start">Start Simulation</div>
+      <div class="button" id="stop">Stop Simulation</div>
+      <div class="button" id="reset">Reset Simulation</div>
+      <p>Iterations per frame:</p>
+      <input class="number-input" type="number" id="iterations-input" min="1" max="50" value="10">
+      <p>Dot radius:</p>
+      <input class="number-input" type="number" id="radius-input" min="1" max="10" value="3">
+    </div>
+    <div id="bottom-left">
+      <p>Hover over a node to see its weight</p>
+      <p>Drag a node to change its position</p>
+      <p>Scroll while hovering over a node to change its weight</p>
+    </div>
+  </div>
+</body>
+</html>
