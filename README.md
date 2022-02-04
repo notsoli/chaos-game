@@ -1,0 +1,2 @@
+# chaos-game
+A simple simulation of [chaos game](https://en.wikipedia.org/wiki/Chaos_game), a fractal generation method that uses polygons with nodes that "pull" an initially random point towards them.
